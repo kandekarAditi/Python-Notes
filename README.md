@@ -79,3 +79,80 @@ print("Addition:", a + b)
 print("a > b:", a > b)              
 print("Age > 18:", age > 18)       
 ```
+
+<h3>🟢Conditional Statements:</h3>
+It used for decision making.<br>
+It checks a condition and runs code based on <b>True or False.</b><br>
+1.if<br>
+2.else<br>
+3.elif<br>
+
+<h4>🔹1. if Statement:</h4>
+Used to check a condition.<br>
+<b>Syntax:</b><br>
+```python
+if condition:
+    statement
+```
+<b>Example :</b><br>
+```python
+age = 18
+
+if age >= 18:
+    print("You can vote")
+```
+
+<h3>🔹2. if-else Statement:</h3>
+Used when there are two choices.<br>
+<b>Syntax:</b><br>
+```python
+if condition:
+    statement1
+else:
+    statement2
+```
+<b>Example :</b><br>
+```python
+num = 10
+
+if num % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
+```
+<h3>🔹2. elif Statement:</h3>
+
+<b>Syntax:</b><br>
+```python
+if condition1:
+    statement1
+elif condition2:
+    statement2
+elif condition3:
+    statement3
+else:
+    statement4
+```
+<b>Example :</b><br>
+```python
+marks = 75
+
+if marks >= 90:
+    print("Grade A")
+elif marks >= 70:
+    print("Grade B")
+elif marks >= 50:
+    print("Grade C")
+else:
+    print("Fail")
+```
+
+<h3>🧠 Homework</h3>
+Q1)Write a Python program to check whether a number is even or odd using if-else.<br>
+Q2)Write a Python program to find the largest among three numbers using if-elif-else.<br>
+Q3)Write a Python program to check whether a year is a leap year or not.
+<b>Hint:</b><br>
+- Year divisible by 4 → Leap year  <br>
+- But divisible by 100 → Not leap year<br>
+- But divisible by 400 → Leap year<br>
+
