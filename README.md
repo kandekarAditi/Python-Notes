@@ -265,11 +265,11 @@ These values are called parameters and are used inside the function to perform o
 - Makes function flexible and reusable <br>
 <br>
 🟢Example : <br>
-```python
-def greet(name):
-    print("Hello", name)
-greet("XYZ")
-```
+
+def greet(name):<br>
+    print("Hello", name)<br>
+greet("XYZ")<br>
+
 <br>
 <h3>🟢Function with Return</h3>
 A function with return sends a result back to the place where it was called.<br>
@@ -278,13 +278,19 @@ The `return` keyword is used to return the value.<br>
 - Function stops after return  <br>
 - Can store returned value in variable  <br><br>
 
+Q)What is return keyword?<br>
+The `return` keyword is used to send a value back from a function.<br>
+- It gives output from the function  <br>
+- It stops the function execution  <br>
+- The returned value can be stored in a variable <br>
+
 🟢Example : <br>
-```python
-def add(a, b):
-    return a + b
-result = add(5, 3)
-print(result)
-```
+
+def add(a, b):<br>
+    return a + b<br>
+result = add(5, 3)<br>
+print(result)<br>
+
 Q)Difference between Parameter and Argument<br>
 
 | Parameter | Argument |
@@ -296,14 +302,6 @@ Q)Difference between Parameter and Argument<br>
 
 <br><br>
 
-Q2)What is return keyword?<br>
-The `return` keyword is used to send a value back from a function.<br>
-
-- It gives output from the function  <br>
-- It stops the function execution  <br>
-- The returned value can be stored in a variable <br>
-
-<br><br>
 <h3><b>Important Points:</b></h3>
 1.def is used to create a function<br>
 2.Function is called using function_name()<br>
