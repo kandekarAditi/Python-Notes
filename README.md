@@ -254,8 +254,10 @@ def function_name():
 ```python
 def greet():
     print("Hello Students")
+
 greet()
 ```
+
 <br>
 <h3>🟢Function with Parameter </h3><br>
 A function with parameter is a function that accepts input values.<br>
