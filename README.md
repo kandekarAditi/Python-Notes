@@ -164,9 +164,27 @@ else:
 <h3>🧠 Homework</h3>
 Q1)Write a Python program to check whether a number is even or odd using if-else.<br>
 Q2)Write a Python program to find the largest among three numbers using if-elif-else.<br>
-Q3)Write a Python program to check whether a year is a leap year or not.
+Q3)Write a Python program to check whether a year is a leap year or not.<br>
 <b>Hint:</b><br>
 - Year divisible by 4 → Leap year  <br>
 - But divisible by 100 → Not leap year<br>
 - But divisible by 400 → Leap year<br>
+
+<h3>🟢Loops:</h3>
+Q)What are Loops?
+Loops are used to execute a block of code repeatedly until a condition is satisfied.<br>
+They help to reduce code repetition and make programs efficient.<br>
+
+<b>Types:</b><br>
+1.for loop<br>
+2.While loop<br>
+
+<h3>🔹1.For Loop</h3>
+A `for` loop is used to iterate over a sequence (like list, string, range).<br>
+
+<b>Syntax:</b><br>
+```python
+for variable in sequence:
+    statement
+```
 
