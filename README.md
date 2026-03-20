@@ -201,9 +201,9 @@ A `while` loop runs as long as the condition is true.<br>
 - Used when number of iterations is unknown  <br>
 - Runs based on condition  <br>
 - Need to update condition (else infinite loop)<br>
-<b>Syntax:</b><br>
+<b>Syntax:</b><br><br>
 `while condition: statement`
-<br>
+<br><br>
 🟢While Loop Example in Python <br>
 
 ```python
