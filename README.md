@@ -206,6 +206,7 @@ A `while` loop runs as long as the condition is true.<br>
 while condition:
     statement
 ```
+<br>
 ## 🟢While Loop Example in Python <br>
 
 ```python
