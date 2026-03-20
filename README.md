@@ -44,7 +44,7 @@ print("Hello", name)
 <h3>🟢Operators:</h3>
 Operators are used to perform operations.<br>
 
-<b>Types:</b>>br>
+<b>Types:</b><br>
 1.Arithmetic → +, -, *, /<br>
 2.Comparison → ==, >, <br>
 3.Logical → and, or, not<br>
@@ -56,3 +56,4 @@ b = 5
 
 print(a + b)
 print(a > b)
+```
