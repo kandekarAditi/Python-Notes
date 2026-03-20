@@ -39,6 +39,7 @@ Output is shown using <b>print()</b><br>
 ```python
 name = input("Enter your name: ")
 print("Hello", name)
+```
 
 <h3>🟢Operators:</h3>
 Operators are used to perform operations.<br>
