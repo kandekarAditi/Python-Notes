@@ -129,6 +129,12 @@ else:
     print("Odd number")
 ```
 <h3>🔹2. elif Statement:</h3>
+`elif` stands for "else if".<br>
+
+It is used to check multiple conditions after an `if` statement.<br>  
+If the first condition is false, Python checks the `elif` condition.<br>
+
+If the `elif` condition is true, its block of code will execute.<br>
 
 <b>Syntax:</b><br>
 ```python
