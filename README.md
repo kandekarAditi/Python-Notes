@@ -109,14 +109,17 @@ if age >= 18:
 <h3>🔹2. if-else Statement:</h3>
 Used when there are two choices.<br>
 <b>Syntax:</b><br>
+
+
 ```python
 if condition:
     statement1
 else:
     statement2
 ```
-<br>
-<b>Example :</b><br>
+
+### Example:
+
 ```python
 num = 10
 
