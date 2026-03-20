@@ -190,7 +190,7 @@ A `for` loop is used to iterate over a sequence (like list, string, range).<br>
 for variable in sequence:
     statement
 ```
-## 🟢 For Loop Example in Python <br>
+🟢 For Loop Example in Python <br>
 
 ```python
 for i in range(1, 4):
@@ -202,12 +202,9 @@ A `while` loop runs as long as the condition is true.<br>
 - Runs based on condition  <br>
 - Need to update condition (else infinite loop)<br>
 <b>Syntax:</b><br>
-```python
-while condition:
-    statement
-```
+`while condition: statement`
 <br>
-## 🟢While Loop Example in Python <br>
+🟢While Loop Example in Python <br>
 
 ```python
 i = 1
