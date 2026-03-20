@@ -27,5 +27,31 @@ Variable is used to store data.<br>
 
 <b>Example</b><br>
 ```python
-name = "Aditi"
+name = "XYZ"
 age = 21
+
+<h3>🟢 Input and Output:</h3>
+Input is taken from user using <b>input()</b><br>
+Output is shown using <b>print()</b><br>
+
+<b>User Input Example in Python</b><br>
+
+```python
+name = input("Enter your name: ")
+print("Hello", name)
+
+<h3>🟢Operators:</h3>
+Operators are used to perform operations.<br>
+
+<b>Types:</b>>br>
+1.Arithmetic → +, -, *, /<br>
+2.Comparison → ==, >, <br>
+3.Logical → and, or, not<br>
+
+<b>Python Operators Example</b><br>
+```python
+a = 10
+b = 5
+
+print(a + b)
+print(a > b)
