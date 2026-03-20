@@ -251,12 +251,11 @@ def function_name():
 ```
 <br>
 🟢Example : <br>
-```python
-def greet():
-    print("Hello Students")
 
-greet()
-```
+def greet():<br>
+    print("Hello Students")<br>
+greet()<br>
+
 
 <br>
 <h3>🟢Function with Parameter </h3><br>
