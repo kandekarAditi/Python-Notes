@@ -90,12 +90,15 @@ It checks a condition and runs code based on <b>True or False.</b><br>
 <h4>🔹1. if Statement:</h4>
 Used to check a condition.<br>
 <b>Syntax:</b><br>
+### Syntax
+
 ```python
 if condition:
     statement
 ```
 
-<b>Example :</b><br>
+### Example
+
 ```python
 age = 18
 
