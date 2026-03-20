@@ -94,6 +94,7 @@ Used to check a condition.<br>
 if condition:
     statement
 ```
+
 <b>Example :</b><br>
 ```python
 age = 18
