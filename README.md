@@ -161,7 +161,7 @@ else:
     print("Fail")
 ```
 
-<h3>🧠 Homework</h3>
+<h3>🧠Technical Questions (Practice)</h3>
 Q1)Write a Python program to check whether a number is even or odd using if-else.<br>
 Q2)Write a Python program to find the largest among three numbers using if-elif-else.<br>
 Q3)Write a Python program to check whether a year is a leap year or not.<br>
@@ -181,10 +181,55 @@ They help to reduce code repetition and make programs efficient.<br>
 
 <h3>🔹1.For Loop</h3>
 A `for` loop is used to iterate over a sequence (like list, string, range).<br>
+- Used when number of iterations is known  <br>
+- Works with list, tuple, string, range  <br>
+- Simple and easy to use<br>
 
 <b>Syntax:</b><br>
 ```python
 for variable in sequence:
     statement
 ```
+## 🟢 For Loop Example in Python <br>
 
+```python
+for i in range(1, 4):
+    print("Python")
+```
+<h3>🔹2.While Loop</h3>
+A `while` loop runs as long as the condition is true.<br>
+- Used when number of iterations is unknown  <br>
+- Runs based on condition  <br>
+- Need to update condition (else infinite loop)<br>
+<b>Syntax:</b><br>
+```python
+while condition:
+    statement
+```
+## 🟢While Loop Example in Python <br>
+
+```python
+i = 1
+
+while i <= 3:
+    print("Python")
+    i += 1
+```
+<h3>🧠Loop Technical Questions (Practice)</h3>
+1. Print numbers from 1 to 10 <br>
+2. Print even numbers from 1 to 20<br>
+3. Print sum of first 10 numbers<br>
+4. Print multiplication table of a number (user input)<br>
+5. Count numbers from 10 to 1 (reverse)<br>
+6. Print all odd numbers between 1 to 50<br>
+7. Find sum of digits of a number (e.g., 123 → 6)<br>
+8. Check number is prime or not<br>
+9. Print factorial of a number<br>
+10. Print star pattern<br>
+Example:<br>
+
+*<br>
+**<br>
+***<br>
+****<br>
+   
