@@ -232,14 +232,18 @@ Example:<br>
 ****<br>
    
 <h3>🟢Functions:</h3>
-<b>Q)What is a Function?</b><br>
+<b>Q)What is a Function?</b>
+<br>
 A function is a block of code that performs a specific task.<br>
 We use functions to avoid repeating code.<br>
-<b>*Simple: Function = reusable code</b><br><br>
+
+<b>*Simple: Function = reusable code</b><br>
+<br>
 <b>Q)Why use Functions?</b><br>
 1.Avoids repetition<br>
 2.Makes code easy to understand<br>
 3.Saves time<br><br>
+
 <b>Syntax:</b><br>
 ```python
 def function_name():
@@ -250,9 +254,9 @@ def function_name():
 ```python
 def greet():
     print("Hello Students")
-
 greet()
 ```
+<br>
 <h3>🟢Function with Parameter </h3><br>
 A function with parameter is a function that accepts input values.<br>
 These values are called parameters and are used inside the function to perform operations.<br>
@@ -264,7 +268,6 @@ These values are called parameters and are used inside the function to perform o
 ```python
 def greet(name):
     print("Hello", name)
-
 greet("XYZ")
 ```
 <br>
@@ -279,7 +282,6 @@ The `return` keyword is used to return the value.<br>
 ```python
 def add(a, b):
     return a + b
-
 result = add(5, 3)
 print(result)
 ```
