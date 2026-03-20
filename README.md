@@ -268,6 +268,7 @@ These values are called parameters and are used inside the function to perform o
 ```python
 def greet(name):
     print("Hello", name)
+
 greet("XYZ")
 ```
 <br>
