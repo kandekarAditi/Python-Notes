@@ -231,3 +231,85 @@ Example:<br>
 ***<br>
 ****<br>
    
+<h3>🟢Functions:</h3>
+<b>Q)What is a Function?</b><br>
+A function is a block of code that performs a specific task.<br>
+We use functions to avoid repeating code.<br>
+<b>*Simple: Function = reusable code</b><br><br>
+<b>Q)Why use Functions?</b><br>
+1.Avoids repetition<br>
+2.Makes code easy to understand<br>
+3.Saves time<br><br>
+<b>Syntax:</b><br>
+```python
+def function_name():
+    statement
+```
+<br>
+🟢Example : <br>
+```python
+def greet():
+    print("Hello Students")
+
+greet()
+```
+<h3>🟢Function with Parameter </h3><br>
+A function with parameter is a function that accepts input values.<br>
+These values are called parameters and are used inside the function to perform operations.<br>
+- Parameters are written inside parentheses  <br>
+- Used to pass data to a function  <br>
+- Makes function flexible and reusable <br>
+<br>
+🟢Example : <br>
+```python
+def greet(name):
+    print("Hello", name)
+
+greet("XYZ")
+```
+<br>
+<h3>🟢Function with Return</h3>
+A function with return sends a result back to the place where it was called.<br>
+The `return` keyword is used to return the value.<br>
+- `return` gives output from function  <br>
+- Function stops after return  <br>
+- Can store returned value in variable  <br><br>
+
+🟢Example : <br>
+```python
+def add(a, b):
+    return a + b
+
+result = add(5, 3)
+print(result)
+```
+Q)Difference between Parameter and Argument<br>
+
+| Parameter | Argument |
+|-----------|----------|
+| Variable defined in function | Value passed to function |
+| Written in function definition | Written in function call |
+| Placeholder | Actual data |
+| Example: `def greet(name)` | Example: `greet("Aditi")` |
+
+<br><br>
+
+Q2)What is return keyword?<br>
+The `return` keyword is used to send a value back from a function.<br>
+
+- It gives output from the function  <br>
+- It stops the function execution  <br>
+- The returned value can be stored in a variable <br>
+
+<br><br>
+<h3><b>Important Points:</b></h3>
+1.def is used to create a function<br>
+2.Function is called using function_name()<br>
+3.Parameters are inputs<br>
+4.return gives output<br>
+
+<h3>🧠Function Technical Questions (Practice)</h3>
+Q1) Check number Even or Odd<br>
+Q2)Find Largest Number<br>
+Q3)Factorial of Number<br>
+Q4)Reverse a String<br>
