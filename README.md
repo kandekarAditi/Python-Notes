@@ -57,3 +57,25 @@ b = 5
 print(a + b)
 print(a > b)
 ```
+
+
+<br>
+<br>
+<br>
+<h3>OneExmaple for that above notes:</h3>
+ 🟢 Simple Python Example<br>
+
+```python
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+
+print("Hello", name)
+print("You are", age, "years old")
+
+a = 10
+b = 5
+
+print("Addition:", a + b)           
+print("a > b:", a > b)              
+print("Age > 18:", age > 18)       
+```
