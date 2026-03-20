@@ -112,6 +112,7 @@ if condition:
 else:
     statement2
 ```
+<br>
 <b>Example :</b><br>
 ```python
 num = 10
