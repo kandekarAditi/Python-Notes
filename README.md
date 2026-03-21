@@ -406,39 +406,91 @@ It is written using curly brackets { }.<br>
 <b>✅ Create Dictionary</b><br>
 
 student = { <br>
- <spam>   "name": "Aditi",<br>
-  <spam>        "age": 22,<br>
-  <spam>  "course": "Python"<br>
+   "name": "Aditi",<br>
+   "age": 22,<br>
+   "course": "Python"<br>
 }<br>
 print(student)
 
 <br><br>
 <b>✅Access Values</b><br>
-```python
-print(student["name"])
-print(student["age"])
-```
+
+print(student["name"])<br>
+print(student["age"])<br>
+
 <br><br>
 <b>✅Add / Update Value</b><br>
-```python
-student["age"] = 23
-student["city"] = "Pune"
-print(student)
-```
+
+student["age"] = 23<br>
+student["city"] = "Pune"<br>
+print(student)<br>
+
 <br><br>
 <b>✅Remove Element</b><br>
-```python
-student.pop("age")
-print(student)
-```
+
+student.pop("age")<br>
+print(student)<br>
+
 <br>
 <br>
 <b>✅Loop Through Dictionary</b>
+
+for key, value in student.items():<br>
+    print(key, value)<br>
+
+<br><br>
+<h3>🟢 4.Set</h3>
+<h3>Q)What is a Set?</h3>
+A set is a collection of unique items.<br>
+-Unordered<br>
+-Unchangeable items (but can add/remove)<br>
+-No duplicate values<br>
+<br>
+<b>✅ Create Set</b><br>
 ```python
-for key, value in student.items():
-    print(key, value)
+numbers = {10, 20, 30, 40}
+print(numbers)
 ```
 <br><br>
+<b>✅ Duplicate Values Not Allowed</b><br>
+```python
+numbers = {10, 20, 20, 30}
+print(numbers)
+```
+<br>
+<br>
+<b>✅ Add Element</b><br>
+```python
+numbers = {10, 20, 30}
+numbers.add(40)
+print(numbers)
+```
+<br>
+<br>
+<b>✅ Remove Element</b><br>
+```python
+numbers = {10, 20, 30}
+numbers.remove(20)
+print(numbers)
+```
+<br>
+<br>
+<b>✅ Length of Set</b><br>
+```python
+numbers = {10, 20, 30}
+print(len(numbers))
+```
+<br>
+<br>
+<b>✅ Loop Through Set</b><br>
+```python
+numbers = {10, 20, 30}
+
+for num in numbers:
+    print(num)
+```
+<br>
+<br>
 
 <h3>🟢 Functions:</h3>
 <b>Q)What is a Function?</b>
