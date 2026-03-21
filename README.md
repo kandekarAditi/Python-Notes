@@ -272,7 +272,81 @@ It is <b>changeable</b> (mutable) and written using <b>square brackets [ ].</b><
 numbers = [10, 20, 30, 40]
 print(numbers)
 ```
-   
+<br>
+<h4>1.Access Value</h4>
+```python
+numbers = [10, 20, 30, 40]
+print(numbers[0])
+```
+<br>
+<h4>2.Change Value</h4>
+```python
+numbers = [10, 20, 30, 40]
+numbers[1] = 50
+print(numbers)
+```
+<br>
+<h4>Common List Methods</h4>
+ <b>🔹 append()</b><br>
+Adds element at end<br>
+
+```python
+numbers = [10, 20, 30]
+numbers.append(40)
+print(numbers)
+```
+<br>
+ <b>🔹 insert()</b><br>
+Adds element at specific position<br>
+```python
+numbers = [10, 20, 30]
+numbers.insert(1, 15)
+print(numbers)
+```
+<br>
+<b>🔹 remove()</b><br>
+Removes specific value<br>
+```python
+numbers = [10, 20, 30]
+numbers.remove(20)
+print(numbers)
+```
+<br>
+<b>🔹 pop()</b><br>
+Removes last element<br>
+
+```python
+numbers = [10, 20, 30]
+numbers.pop()
+print(numbers)
+```
+<br>
+<b>🔹 sort()</b><br>
+Sorts list<br>
+
+```python
+numbers = [30, 10, 20]
+numbers.sort()
+print(numbers)
+```
+  <br>
+  <b>🔹 reverse()</b><br>
+Reverses list<br>
+
+```python
+numbers = [10, 20, 30]
+numbers.reverse()
+print(numbers)
+```
+<br>
+<b>🔹 len()</b><br>
+Find length<br>
+
+```python
+numbers = [10, 20, 30]
+print(len(numbers))
+```
+<br>
 <h3>🟢 Functions:</h3>
 <b>Q)What is a Function?</b>
 <br>
