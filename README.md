@@ -404,14 +404,14 @@ It is written using curly brackets { }.<br>
 -Changeable (mutable)<br>
 -No duplicate keys<br><br>
 <b>✅ Create Dictionary</b><br>
-```python
-student = {
-    "name": "Aditi",
-    "age": 22,
-    "course": "Python"
-}
+
+student = { <br>
+ <spam>   "name": "Aditi",<br>
+  <spam>        "age": 22,<br>
+  <spam>  "course": "Python"<br>
+}<br>
 print(student)
-```
+
 <br><br>
 <b>✅Access Values</b><br>
 ```python
