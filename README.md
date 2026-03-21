@@ -461,35 +461,66 @@ print(numbers)<br>
 <br>
 <b>✅ Add Element</b><br>
 
-  `numbers = {10, 20, 30}`
- `numbers.add(40)`
- `print(numbers)`
+  `numbers = {10, 20, 30}`<br>
+ `numbers.add(40)`<br>
+ `print(numbers)`<br>
 
 <br>
 <br>
 <b>✅ Remove Element</b><br>
 
-`numbers = {10, 20, 30}`
-`numbers.remove(20)`
-`print(numbers)`
+`numbers = {10, 20, 30}`<br>
+`numbers.remove(20)`<br>
+`print(numbers)`<br>
 
 <br>
 <br>
 <b>✅ Length of Set</b><br>
 
-`numbers = {10, 20, 30}`
-`print(len(numbers))`
+`numbers = {10, 20, 30}`<br>
+`print(len(numbers))`<br>
 
 <br>
 <br>
 <b>✅ Loop Through Set</b><br>
 
-`numbers = {10, 20, 30}`
+`numbers = {10, 20, 30}`<br>
 
-`for num in numbers:`
-    `print(num)`
+`for num in numbers:`<br>
+    `print(num)`<br>
 <br>
 <br>
+<h3>Python Practical Questions:</h3>
+<h3>🟢 1. LIST Questions</h3>
+Q1: Find largest number<br>
+Q2: Reverse a list<br>
+Q3: Remove duplicates<br>
+Q4: Sum of elements<br>
+Q5: Find even numbers<br>
+
+<br>
+<h3>🟡 2. TUPLE Questions</h3>
+Q1: Count element<br>
+Q2: Find index given numbers..t = (10, 20, 30)<br>
+Q3: Convert tuple to list
+
+<br>
+<br>
+<h3>🔵 3. DICTIONARY Questions</h3>
+Q1: Access dictionary value<br>
+Q2: Merge two dictionaries<br>
+Q3: Count frequency<br>
+Q4: Find key with max value<br>
+
+<br>
+<br>
+<h3>🟣 4. SET Questions</h3>
+Q1: Remove duplicates<br>
+Q2: Find Union of Two Sets<br>
+Q3: Find Intersection of Two Sets<br>
+Q4: Find Difference Between Sets<br>
+Q5:Write a Python program to check whether one set is a subset of another set.<br>
+
 
 <h3>🟢 Functions:</h3>
 <b>Q)What is a Function?</b>
