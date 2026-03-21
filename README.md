@@ -261,7 +261,9 @@ In Python, we store data sets using:<br>
 4.Set<br>
 
 <h3>🟢 1. List</h3>
+
 <h4>Q)What is List?</h4>
+
 A list is used to store multiple values in one variable.<br>
 It is <b>changeable</b> (mutable) and written using <b>square brackets [ ].</b><br>
 -Ordered<br>
@@ -347,6 +349,52 @@ numbers = [10, 20, 30]
 print(len(numbers))
 ```
 <br>
+
+<h3>🟢 2. Tuple</h3>
+
+Q)What is a Tuple?<br>
+
+A tuple is a collection of items.<br>
+-Use () to create tuple
+-Ordered<br>
+-Unchangeable (immutable) <br>
+-Allows duplicate values<br>
+
+<b>🔹Create Tuple</b><br>
+```python
+fruits = ("Apple", "Mango", "Banana")
+print(fruits)
+```<br>
+<b>🔹Access Elements</b>
+```python
+fruits = ("Apple", "Mango", "Banana")
+print(fruits[0])
+print(fruits[1])
+<b>🔹Loop Through Tuple</b>
+```python
+fruits = ("Apple", "Mango", "Banana")
+for item in fruits:
+    print(item)
+```
+<br>
+<b>🔹Convert Tuple to List</b>
+```python
+fruits = ("Apple", "Mango", "Banana")
+temp = list(fruits)
+temp[1] = "Orange"
+fruits = tuple(temp)
+print(fruits)
+```
+<br>
+<b>🔹Length of Tuple</b>
+```python
+fruits = ("Apple", "Mango", "Banana")
+print(len(fruits))
+```
+<br>
+
+
+<br><br>
 <h3>🟢 Functions:</h3>
 <b>Q)What is a Function?</b>
 <br>
