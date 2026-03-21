@@ -366,21 +366,21 @@ fruits = ("Apple", "Mango", "Banana")
 print(fruits)
 ```
 <br>
-<b>🔹Access Elements</b>
+<b>🔹Access Elements</b><br>
 ```python
 fruits = ("Apple", "Mango", "Banana")
 print(fruits[0])
 print(fruits[1])
 ```
 <br>
-<b>🔹Loop Through Tuple</b>
+<b>🔹Loop Through Tuple</b><br>
 ```python
 fruits = ("Apple", "Mango", "Banana")
 for item in fruits:
     print(item)
 ```
 <br>
-<b>🔹Convert Tuple to List</b>
+<b>🔹Convert Tuple to List</b><br>
 ```python
 fruits = ("Apple", "Mango", "Banana")
 temp = list(fruits)
@@ -389,7 +389,7 @@ fruits = tuple(temp)
 print(fruits)
 ```
 <br>
-<b>🔹Length of Tuple</b>
+<b>🔹Length of Tuple</b><br>
 ```python
 fruits = ("Apple", "Mango", "Banana")
 print(len(fruits))
