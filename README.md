@@ -447,24 +447,24 @@ A set is a collection of unique items.<br>
 -No duplicate values<br>
 <br>
 <b>✅ Create Set</b><br>
-```python
-numbers = {10, 20, 30, 40}
-print(numbers)
-```
+
+numbers = {10, 20, 30, 40}<br>
+print(numbers)<br>
+
 <br><br>
 <b>✅ Duplicate Values Not Allowed</b><br>
-```python
-numbers = {10, 20, 20, 30}
-print(numbers)
-```
+
+numbers = {10, 20, 20, 30}<br>
+print(numbers)<br>
+
 <br>
 <br>
 <b>✅ Add Element</b><br>
-```python
-numbers = {10, 20, 30}
-numbers.add(40)
-print(numbers)
-```
+
+`numbers = {10, 20, 30}`
+`numbers.add(40)`
+`print(numbers)`
+
 <br>
 <br>
 <b>✅ Remove Element</b><br>
