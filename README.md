@@ -460,35 +460,34 @@ print(numbers)<br>
 <br>
 <br>
 <b>✅ Add Element</b><br>
-```
- numbers = {10, 20, 30}
- numbers.add(40)
- print(numbers)
-```
+
+  `numbers = {10, 20, 30}`
+ `numbers.add(40)`
+ `print(numbers)`
+
 <br>
 <br>
 <b>✅ Remove Element</b><br>
-```python
-numbers = {10, 20, 30}
-numbers.remove(20)
-print(numbers)
-```
+
+`numbers = {10, 20, 30}`
+`numbers.remove(20)`
+`print(numbers)`
+
 <br>
 <br>
 <b>✅ Length of Set</b><br>
-```python
-numbers = {10, 20, 30}
-print(len(numbers))
-```
+
+`numbers = {10, 20, 30}`
+`print(len(numbers))`
+
 <br>
 <br>
 <b>✅ Loop Through Set</b><br>
-```python
-numbers = {10, 20, 30}
 
-for num in numbers:
-    print(num)
-```
+`numbers = {10, 20, 30}`
+
+`for num in numbers:`
+    `print(num)`
 <br>
 <br>
 
