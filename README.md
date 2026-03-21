@@ -402,7 +402,7 @@ A dictionary stores data in key-value pair.<br>
 It is written using curly brackets { }.<br>
 -Unordered<br>
 -Changeable (mutable)<br>
--No duplicate keys<br>
+-No duplicate keys<br><br>
 <b>✅ Create Dictionary</b><br>
 ```python
 student = {
@@ -412,30 +412,34 @@ student = {
 }
 print(student)
 ```
-<br>
+<br><br>
 <b>✅Access Values</b><br>
 ```python
 print(student["name"])
 print(student["age"])
 ```
-<br>
+<br><br>
 <b>✅Add / Update Value</b><br>
 ```python
 student["age"] = 23
 student["city"] = "Pune"
 print(student)
 ```
+<br><br>
 <b>✅Remove Element</b><br>
 ```python
 student.pop("age")
 print(student)
 ```
+<br>
+<br>
 <b>✅Loop Through Dictionary</b>
 ```python
 for key, value in student.items():
     print(key, value)
 ```
 <br><br>
+
 <h3>🟢 Functions:</h3>
 <b>Q)What is a Function?</b>
 <br>
