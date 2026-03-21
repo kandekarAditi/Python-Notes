@@ -291,17 +291,17 @@ print(numbers)
 Adds element at end<br>
 
 ```python
-numbers = [10, 20, 30]
-numbers.append(40)
-print(numbers)
+numbers = [10, 20, 30]<br>
+numbers.append(40)<br>
+print(numbers)<br>
 ```
 <br>
  <b>🔹 insert()</b><br>
 Adds element at specific position<br>
 ```python
-numbers = [10, 20, 30]
-numbers.insert(1, 15)
-print(numbers)
+numbers = [10, 20, 30]<br>
+numbers.insert(1, 15)<br>
+print(numbers)<br>
 ```
 <br>
 <b>🔹 remove()</b><br>
