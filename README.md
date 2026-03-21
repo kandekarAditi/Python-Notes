@@ -21,7 +21,7 @@ Python was created by <b>Guido van Rossum</b>.<br>
 Variable is used to store data.<br>
 It is like a container that holds information, and we can use or change it later.<br>
 
-<h3>Rules of </h3>
+<h3>Rules of Variables</h3>
 1. Variable name should start with a letter or underscore (_)<br>
 2. Variable name cannot start with a number<br>
 3. Only letters, numbers, and underscore are allowed<br>
@@ -243,6 +243,8 @@ Example:<br>
 ***<br>
 ****<br>
 
+<br>
+<h3>Data Set</h3>
 <h3>🟢 What is Data Set?</h3>
 A data set is a collection of data or values.<br>
 It can contain numbers, names, or any type of information grouped together.<br><br>
