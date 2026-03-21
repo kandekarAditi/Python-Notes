@@ -364,12 +364,15 @@ A tuple is a collection of items.<br>
 ```python
 fruits = ("Apple", "Mango", "Banana")
 print(fruits)
-```<br>
+```
+<br>
 <b>🔹Access Elements</b>
 ```python
 fruits = ("Apple", "Mango", "Banana")
 print(fruits[0])
 print(fruits[1])
+```
+<br>
 <b>🔹Loop Through Tuple</b>
 ```python
 fruits = ("Apple", "Mango", "Banana")
