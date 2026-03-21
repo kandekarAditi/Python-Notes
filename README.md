@@ -460,11 +460,11 @@ print(numbers)<br>
 <br>
 <br>
 <b>✅ Add Element</b><br>
-
-`numbers = {10, 20, 30}`
-`numbers.add(40)`
-`print(numbers)`
-
+```
+ numbers = {10, 20, 30}
+ numbers.add(40)
+ print(numbers)
+```
 <br>
 <br>
 <b>✅ Remove Element</b><br>
