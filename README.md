@@ -19,6 +19,17 @@ Python was created by <b>Guido van Rossum</b>.<br>
 
 <h3>🟢Variables and Data Types:</h3>
 Variable is used to store data.<br>
+It is like a container that holds information, and we can use or change it later.<br>
+
+<h3>Rules of </h3>
+1. Variable name should start with a letter or underscore (_)<br>
+2. Variable name cannot start with a number<br>
+3. Only letters, numbers, and underscore are allowed<br>
+4. No space allowed in variable name<br>
+5. Variable names are case-sensitive<br>
+6. Cannot use Python keywords as variable names
+<br>
+<br>
 <b>Data Types:</b><br>
 1.int → numbers (10, 20)<br>
 2.float → decimal (10.5)<br>
@@ -63,6 +74,7 @@ print(a > b)
 <br>
 <br>
 <h3>OneExmaple for that above notes:</h3>
+
  🟢 Simple Python Example<br>
 
 ```python
@@ -230,8 +242,36 @@ Example:<br>
 **<br>
 ***<br>
 ****<br>
+
+<h3>🟢 What is Data Set?</h3>
+A data set is a collection of data or values.<br>
+It can contain numbers, names, or any type of information grouped together.<br><br>
+<h4>Example </h4>
+1.Marks of students → [85, 90, 78, 92]<br>
+2.Names of students → ["Rahul", "Neha"]<br>
+
+These are called data sets.<br><br>
+<h3>🟢 Data Sets in Python</h3>
+In Python, we store data sets using:<br>
+1.List<br>
+2.Tuple<br>
+3.Dictionary<br>
+4.Set<br>
+
+<h3>🟢 1. List</h3>
+<h4>Q)What is List?</h4>
+A list is used to store multiple values in one variable.<br>
+It is <b>changeable</b> (mutable) and written using <b>square brackets [ ].</b><br>
+-Ordered<br>
+-Changeable (mutable)<br>
+-Allows duplicate values<br>
+🟢Example : <br>
+```python
+numbers = [10, 20, 30, 40]
+print(numbers)
+```
    
-<h3>🟢Functions:</h3>
+<h3>🟢 Functions:</h3>
 <b>Q)What is a Function?</b>
 <br>
 A function is a block of code that performs a specific task.<br>
